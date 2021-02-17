@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+</head>
+<body>
+<div id="login">
+    <h1>Login</h1>
+    <form action="/myWeb/user/login" target="_blank" method="post">
+
+        <input type="text" required="required" placeholder="用户名" name="userName"></input>
+        <input type="password" required="required" placeholder="密码" name="userPwd"></input>
+        <button class="but" type="submit">登录</button>
+        <h4>十天内免登录 <input type="checkbox" name="tenDay" value="ok" class="but"></h4>
+
+
+    </form>
+</div>
+</body>
+</html>
